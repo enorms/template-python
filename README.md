@@ -20,6 +20,12 @@ Check types:
 
 # Install
 
+## Update badges
+
+Update URLs to match project.
+
+## Setup virtual environment
+
 ```sh
 python -m venv venv
 source venv/bin/activate
