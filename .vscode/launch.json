@@ -5,6 +5,18 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": "sum",
+      "type": "python",
+      "request": "launch",
+      "program": "./src/main.py",
+      "console": "integratedTerminal",
+      "cwd": "${workspaceFolder}/",
+      "env": {
+        "PYTHONPATH": "${workspaceFolder}/venv/bin/activate"
+      },
+      "args": ["--verbose", "sum", "--", "2", "3", "-1"]
+    },
+    {
       "name": "pytest: all",
       "type": "python",
       "request": "launch",
@@ -23,7 +35,6 @@
       "env": {
         "PYTHONPATH": "${workspaceFolder}/venv/bin/activate"
       },
-      // use "--" before negatives
       "args": ["sum", "--", "2", "3", "-1"]
     }
   ]

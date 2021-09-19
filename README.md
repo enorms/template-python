@@ -20,6 +20,12 @@ Check types:
 
 # Install
 
+## Update badges
+
+Update URLs to match project.
+
+## Setup virtual environment
+
 ```sh
 python -m venv venv
 source venv/bin/activate
@@ -58,3 +64,37 @@ python -m pip install -r requirements.txt
 - [pytest docs](https://docs.pytest.org/en/6.2.x/example/index.html)
 - [TDD with Python, 2E](https://learning.oreilly.com/library/view/test-driven-development-with/9781491958698/part01.html#part1)
 - [Click docs](https://click.palletsprojects.com/en/8.0.x/#documentation)
+
+## Style Guide Notes
+
+```py
+module_name = None
+package_name = None
+_private_module = None
+
+ClassName = None
+_PrivateClass = None
+ExceptionName = None
+
+
+def method_name(function_parameter):  # functions, methods
+    pass
+
+
+def _private_method(_prviate_method_parameter):
+    pass
+
+
+GLOBAL_CONSTANT_NAME = None
+CLASS_CONSTANT_NAME = None
+_PRIVATE_GLOBAL_CONSTANT = None
+
+global_var_name = None
+instance_var_name = None
+local_var_name = None
+_private_variable = None
+
+i = 0  # counter
+e = False  # try/except statements
+f = Path()  # file handle in 'with' statements
+```
