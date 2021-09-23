@@ -1,4 +1,5 @@
 // https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+// Can this be movet do pyproject.toml?
 {
   // Version of the setting file.  Always 0.2
   "version": "0.2",
