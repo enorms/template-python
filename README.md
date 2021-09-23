@@ -10,10 +10,20 @@ Basic folder structure with working test, starter requirements and gitignore.
 Sum numbers:
 `python src/main.py sum 2 3 -- -1`
 
+## Dev usage
+
+Spell check:
+
+```sh
+cspell "*.md"
+```
+
 # Test
 
 Run tests:
 `python -m pytest tests`
+
+the
 
 Check types:
 `pytype ./src`
@@ -81,7 +91,7 @@ def method_name(function_parameter):  # functions, methods
     pass
 
 
-def _private_method(_prviate_method_parameter):
+def _private_method(_private_method_parameter):
     pass
 
 

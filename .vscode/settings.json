@@ -18,5 +18,5 @@
   "[python]": {
     "editor.defaultFormatter": null
   },
-  "cSpell.enabled": false
+  "cSpell.enabled": true // cspell.json
 }

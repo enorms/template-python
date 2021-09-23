@@ -1,0 +1,21 @@
+// https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker
+{
+  // Version of the setting file.  Always 0.2
+  "version": "0.2",
+  "enabledLanguageIds": ["markdown"],
+  "language": "en",
+  "dictionaries": ["python"],
+  "words": [
+    "mkdirp",
+    "tsmerge",
+    "githubusercontent",
+    "streetsidesoftware",
+    "vsmarketplacebadge",
+    "visualstudio",
+    "pydantic",
+    "Pyright",
+    "pyscaffold",
+    "pytype"
+  ],
+  "flagWords": ["hte"]
+}
