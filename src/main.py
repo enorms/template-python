@@ -1,3 +1,4 @@
+#!/usr/bin/env python3
 # Starter program with click cli examples
 
 from functools import reduce
